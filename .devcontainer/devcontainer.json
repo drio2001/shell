@@ -1,0 +1,17 @@
+{
+  "name": "C Development Container",
+  "image": "mcr.microsoft.com/devcontainers/c",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "ms-vscode.cpptools",
+    "twxs.cmake",
+    "ms-vscode.cmake-tools"
+  ],
+  "features": {
+    "ghcr.io/devcontainers/features/gcc:1": {}
+  },
+  "postCreateCommand": "gcc --version && make --version",
+  "remoteUser": "vscode"
+}
