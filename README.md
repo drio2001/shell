@@ -1,0 +1,3 @@
+- Compilacion
+- Enlazado
+- Ejecucion
